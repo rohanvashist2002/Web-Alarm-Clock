@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="alarm-clock">
+        <h1 id="time"></h1>
+        <h2 id="alarm-time"></h2>
+        <button id="set-alarm-btn">Set Alarm</button>
+        <button id="stop-alarm-btn" disabled>Stop Alarm</button>
+        <input type="time" id="alarm-input" value="08:00">
+        <audio id="alarm-sound" src="alarm.mp3" type="audio/mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
